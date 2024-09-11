@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "./navbar";
 import pic from "./assets/profile.jpeg";
 import AOS from "aos";
-import { useEffect } from "react";
 import "aos/dist/aos.css";
+import { useEffect } from "react";
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -47,7 +47,7 @@ function Home() {
         </div>
       </div>
       
-        <h1 className="uppercase text-4xl sm:text-6xl text-white font-poppins text-center pb-5 mt-20">
+        <h1 className="uppercase text-4xl sm:text-6xl text-white font-roboto text-center pb-5 mt-20">
           Professional Skillset
         </h1>
 

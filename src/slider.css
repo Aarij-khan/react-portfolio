@@ -1,0 +1,20 @@
+body {
+    padding: 0;
+    margin: 0;
+ }
+ .zoomIn{
+    z-index: 1;
+    position: fixed;
+    height: 555px;
+    width: 65%;
+    transition: 0.3s;
+    background-color:#c46518;
+    left: -100%;
+    margin-top: -28px;
+ }
+ .zoomOut{
+  
+    left: 0%;
+    
+ }
+ 
