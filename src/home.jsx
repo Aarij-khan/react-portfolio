@@ -32,8 +32,8 @@ function Home() {
           className="  sm:w-1/2  w-full flex gap-4 justify-center items-center sm:text-4xl text-3xl  flex-col sm:gap-4"
           data-aos="fade-right"
         >
-          <h1>Hi👋I am Aarij khan</h1>
-          <h1 className="font-mono">Web and App Developer</h1>
+          <h1 className="font-poppins">Hi👋I am Aarij khan</h1>
+          <h1 className="font-poppins">Web and App Developer</h1>
         </div>
         <div
           className="text-black  sm:w-1/2  w-full flex gap-16 justify-center items-center"
@@ -47,30 +47,30 @@ function Home() {
         </div>
       </div>
       
-        <h1 className=" text-6xl text-white font-bold text-center pb-5 sm:mt-20">
+        <h1 className="uppercase text-4xl sm:text-6xl text-white font-poppins text-center pb-5 mt-20">
           Professional Skillset
         </h1>
 
         
          <div className="pb-20 mt-10 w-full flex justify-center items-center flex-col bg-gradient-to-t from-green-900 to-green-600 overflow-x-hidden overflow-y-hidden"  >
           <div className="flex gap-10 sm:flex-row flex-col sm:gap-32" >
-            <FaHtml5 className="text-9xl border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3 " />
-            <IoLogoCss3 className="text-9xl  border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
-            <RiTailwindCssFill className="text-9xl border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3 " />
+            <FaHtml5 className="text-[200px] border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3 " />
+            <IoLogoCss3 className="text-[200px]  border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
+            <RiTailwindCssFill className="text-[200px] border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3 " />
           </div>
           <div className="flex gap-10 sm:flex-row flex-col sm:gap-32 mt-10">
-            <FaJs className="text-9xl border-2 text-black p-1 border-green-200 mt-10 sm:mt-3" />
-            <FaReact className="text-9xl border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
-            <FaBootstrap className="text-9xl border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
+            <FaJs className="text-[200px] border-2 text-black p-1 border-green-200 mt-10 sm:mt-3" />
+            <FaReact className="text-[200px] border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
+            <FaBootstrap className="text-[200px] border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
           </div>
           <div className="flex gap-10 sm:flex-row flex-col mt-10 sm:gap-32">
-            <FaGithub className="text-9xl border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
-            <IoLogoFirebase className="text-9xl border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
-            <FaSquareGit className="text-9xl border-2 text-black shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
+            <FaGithub className="text-[200px] border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
+            <IoLogoFirebase className="text-[200px] border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
+            <FaSquareGit className="text-[200px] border-2 text-black shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
           </div>
           <div className="flex gap-10 sm:flex-row flex-col mt-10 sm:gap-32">
-            <TbBrandReactNative className="text-9xl border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
-            <SiNextdotjs className="text-9xl border-2 text-black shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
+            <TbBrandReactNative className="text-[200px] border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
+            <SiNextdotjs className="text-[200px] border-2 text-black shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
           </div>
         </div>
      
