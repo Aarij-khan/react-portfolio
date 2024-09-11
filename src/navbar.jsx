@@ -16,7 +16,9 @@ function Navbar() {
             <Link to={'/location'}>
             <li>Location</li>
             </Link>
-            <li>Gallery</li>
+            <Link to={'/portfolio'}>
+            <li>portfolio</li>
+            </Link>
           </ul>
         </div>
 

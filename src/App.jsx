@@ -1,7 +1,6 @@
-import { useState } from 'react'
-import Navbar from './navbar';
 import Home from './home';
 import Location from './location';
+import Portfolio from './portfolio';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
@@ -9,6 +8,7 @@ function App() {
   const router = createBrowserRouter([
     { path: "/", element: <Home/>},
     { path: "/location", element: <Location/>},
+    { path: "/portfolio", element: <Portfolio/>},
 
   ]);
 

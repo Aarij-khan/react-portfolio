@@ -52,7 +52,7 @@ function Home() {
         </h1>
 
         
-         <div className="mt-10 w-full flex justify-center items-center flex-col bg-gradient-to-t from-green-900 to-green-600 overflow-x-hidden overflow-y-hidden"  >
+         <div className="pb-20 mt-10 w-full flex justify-center items-center flex-col bg-gradient-to-t from-green-900 to-green-600 overflow-x-hidden overflow-y-hidden"  >
           <div className="flex gap-10 sm:flex-row flex-col sm:gap-32" >
             <FaHtml5 className="text-9xl border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3 " />
             <IoLogoCss3 className="text-9xl  border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
@@ -65,11 +65,11 @@ function Home() {
           </div>
           <div className="flex gap-10 sm:flex-row flex-col mt-10 sm:gap-32">
             <FaGithub className="text-9xl border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
-            <TbBrandReactNative className="text-9xl border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
             <IoLogoFirebase className="text-9xl border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
+            <FaSquareGit className="text-9xl border-2 text-black shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
           </div>
           <div className="flex gap-10 sm:flex-row flex-col mt-10 sm:gap-32">
-            <FaSquareGit className="text-9xl border-2 text-black shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
+            <TbBrandReactNative className="text-9xl border-2 text-black  shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
             <SiNextdotjs className="text-9xl border-2 text-black shadow-2xl shadow-green-200 p-1 border-green-200 mt-3" />
           </div>
         </div>
