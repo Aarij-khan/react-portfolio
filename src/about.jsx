@@ -2,6 +2,7 @@ import Navbar from "./navbar";
 import AOS from "aos";
 import React, { useEffect } from "react";
 import "aos/dist/aos.css";
+import Footer from "./footer";
 
 function About() {
     useEffect(() => {
@@ -29,7 +30,7 @@ function About() {
 
         </div>
     </div>
-
+      <Footer/>
     </div>
   );
 }

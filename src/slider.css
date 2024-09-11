@@ -8,7 +8,7 @@ body {
     height: 555px;
     width: 65%;
     transition: 0.3s;
-    background-color:#c46518;
+    background-image: linear-gradient(green,darkgreen);
     left: -100%;
     margin-top: -28px;
  }

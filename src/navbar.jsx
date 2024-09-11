@@ -6,8 +6,7 @@ import { ImCross } from "react-icons/im";
 import { FaHome } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
 import { FaServicestack } from "react-icons/fa";
-import { FaHandshake } from "react-icons/fa";
-import { MdContacts } from "react-icons/md";
+import { MdLocationPin } from "react-icons/md";
 
 function Navbar() {
   const [isShow, setShow] = useState(false);
@@ -55,48 +54,55 @@ function Navbar() {
           <div className="w-full flex justify-end">
             <button
               onClick={() => setShow(false)}
-              className="text-xl  flex justify-end mt-2 mr-2"
+              className="text-xl  flex justify-end mt-4 mr-2 text-white"
             >
               <ImCross />
             </button>
           </div>
-          <div className="h-[100vh] w-full ml-4 ">
-            <ul className="mt-5">
-              <h3 className=" flex  items-center gap-3 text-xl text-white font-mono  mt-1">
-                <span className="text-black">
+          <div className="h-[100vh] w-full ml-4  ">
+          <h1 className="text-white text-2xl font-serif ml-2 ">
+          Aarij Dev
+        </h1>
+            <ul className="mt-8">
+              <Link to={'/'}>
+              <h3 className=" flex  items-center gap-3 text-xl text-white font-poppins   mt-8">
+                <span className="text-black text-3xl">
                   <FaHome />
                 </span>
                 Home
               </h3>
-              <h3 className=" flex  items-center gap-3 text-xl text-white font-mono mt-1">
-                <span className="text-black">
+              </Link>
+              <Link to={'/about'}>
+              <h3 className=" flex  items-center gap-3 text-xl text-white font-poppins  mt-8">
+                <span className="text-black text-3xl">
                   <IoMdContact />
                 </span>
                 About Us
               </h3>
-              <h3 className=" flex  items-center gap-3 text-xl text-white font-mono mt-1">
-                <span className="text-black">
+              </Link>
+              <Link to={'/portfolio'}>
+              <h3 className=" flex  items-center gap-3 text-xl text-white font-poppins  mt-8">
+                <span className="text-black text-3xl">
                   <FaServicestack />
                 </span>
-                Sevices
+                Portfolio
               </h3>
-              <h3 className=" flex  items-center gap-3 text-xl text-white font-mono mt-1">
-                <span className="text-black">
-                  <FaHandshake />
+              </Link>
+              <Link to={'/location'}>
+              <h3 className=" flex  items-center gap-3 text-xl text-white font-poppins  mt-8">
+                <span className="text-black text-3xl">
+                  <MdLocationPin />
                 </span>
-                Schedule
+                Location
               </h3>
-              <h3 className=" flex  items-center gap-3 text-xl text-white font-mono mt-1">
-                <span className="text-black">
-                  <MdContacts />
-                </span>
-                Contact
-              </h3>
+              </Link>
             </ul>
           </div>
         </div>
       </div>
       {/* slider end */}
+
+      
     </div>
   );
 }

@@ -4,6 +4,7 @@ import Navbar from "./navbar";
 import AOS from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
+import Footer from "./footer";
 function Location() {
     const AnyReactComponent = ({ text }) => <div className="text-white font-bold text-xl">{text}</div>;
 
@@ -22,7 +23,7 @@ function Location() {
         });
       }, []);
   return (
-    <div className="bg-gradient-to-t from-green-900 to-green-600 pb-4">
+    <div className="bg-gradient-to-t from-green-900 to-green-600 ">
         <Navbar/>
         <div style={{ height: '85vh', width: '80%',margin:"0 auto",marginTop:15 ,borderRadius:"16px"}} data-aos="zoom-in">
       <GoogleMapReact
@@ -36,6 +37,7 @@ function Location() {
         />
       </GoogleMapReact>
     </div>
+    <Footer props="mt-6"/>
     </div>
   )
 }
