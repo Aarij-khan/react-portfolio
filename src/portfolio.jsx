@@ -56,7 +56,7 @@ function Portfolio() {
       <div className="flex mt-20 flex-col sm:flex-row gap-10 sm:gap-0 border-2 p-5 mx-8 sm:mx-20 rounded-lg shadow-xl shadow-green-400" data-aos="fade-left">
         <div className="w-full sm:w-1/2 flex justify-center items-center flex-col gap-4 p-6">
           <h1 className="text-3xl uppercase text-white">project # 2</h1>
-          <h1 className="text-3xl uppercase text-white">Barber booking</h1>
+          <h1 className="text-2xl uppercase text-white">Barber booking</h1>
           <div className="flex gap-6 items-center pt-10 flex-col sm:flex-row sm:gap-10">
              <Link to={'https://barberbook.netlify.app/'}>
             <div className="flex items-center gap-4 focus:outline-none text-white bg-green-900 hover:bg-green-500 focus:ring-4 focus:ring-green-100 font-medium rounded-lg text-sm px-5 py-2.5  dark:focus:ring-green-600">
@@ -133,7 +133,7 @@ function Portfolio() {
           <img
             src={calculator}
             alt="solarpanel"
-            className="w-[100%] sm:w-[80%] rounded-xl"
+            className="w-[70%] sm:w-[80%] rounded-xl"
           />
         </div>
       </div>

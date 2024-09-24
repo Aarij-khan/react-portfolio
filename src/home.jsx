@@ -44,7 +44,7 @@ function Home() {
             
             
             </Link>
-            <Link to={'https://wa.me/03282183869'}>
+            <Link to={'https://wa.me/923282183869'}>
             <div className="flex items-center  focus:outline-none text-white bg-green-900 hover:bg-green-500 focus:ring-4 focus:ring-green-100 font-medium rounded-lg text-sm px-5 py-2.5  dark:focus:ring-green-600">
               <FaWhatsappSquare className="text-4xl" />
             </div>
@@ -67,12 +67,12 @@ function Home() {
           <img
             src={pic}
             alt="pic"
-            className="w-[50%] sm:w-[45%] md:w-[40%]  rounded-xl shadow-xl"
+            className="w-[60%] sm:w-[45%] md:w-[40%]  rounded-xl shadow-xl "
           />
         </div>
       </div>
       
-        <h1 className="uppercase text-4xl sm:text-6xl text-white font-roboto text-center pb-5 mt-20">
+        <h1 className="uppercase text-4xl sm:text-6xl text-white font-poppins  text-center pb-5 mt-40">
           Professional Skillset
         </h1>
 

@@ -18,7 +18,7 @@ function About() {
     <div className="flex justify-center items-center w-full  bg-gradient-to-t from-green-900 to-green-600 pb-[63px]">
         <div className=" w-[70%] ">
         <div className="text-center text-white text-5xl  font-poppins mt-10 ">About Us</div>
-      <h2 className="text-white text-md sm:text-3xl text-left font-poppins pt-6  "  data-aos="zoom-in">
+      <h2 className="text-white text-md sm:text-3xl font-poppins pt-6 w-[320px] sm:w-full -ml-6 sm:ml-0"  data-aos="zoom-in">
         Hi, I am Aarij khan. My age is 19 years old .i AM FROM model colony
         karachi.i have one siblings .I have completed my matriculation in 2020
         then i completed intermediate from Govt,degree Malir Cantoment College
