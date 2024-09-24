@@ -23,7 +23,7 @@ function Location() {
         });
       }, []);
   return (
-    <div className="bg-gradient-to-t from-green-900 to-green-600 ">
+    <div className="bg-[#F4D35E] ">
         <Navbar/>
         {/* <div style={{ height: '85vh', width: '80%',margin:"0 auto",marginTop:15 ,borderRadius:"16px"}} data-aos="zoom-in"> */}
         <div className="h-[70vh] w-[80%] m-auto mt-[15px] rounded-lg sm:h-[85vh] " data-aos="zoom-in">

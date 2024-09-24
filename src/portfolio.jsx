@@ -20,12 +20,12 @@ function Portfolio() {
     });
   }, []);
   return (
-    <div className="w-full  bg-gradient-to-t from-green-900 to-green-600 overflow-x-hidden">
+    <div className="w-full bg-[#F4D35E] overflow-x-hidden">
       <Navbar/>
       <h1 className="text-center text-3xl text-white font-bold font-serif pt-10">
         Projects
       </h1>
-      <div className="flex mt-10 sm:mt-20 flex-col sm:flex-row gap-10 sm:gap-0 border-2 p-5 mx-8 sm:mx-20 rounded-lg shadow-xl shadow-green-400" data-aos="fade-right">
+      <div className="flex mt-10 sm:mt-20 flex-col sm:flex-row gap-10 sm:gap-0 border-2 p-5 mx-8 sm:mx-20 rounded-lg shadow-xl shadow-[red]" data-aos="fade-right">
         <div className="w-full sm:w-1/2 flex justify-center items-center flex-col gap-4 p-6">
           <h1 className="text-3xl uppercase text-white">project # 1</h1>
           <h1 className="text-3xl uppercase text-white">Solar Saver</h1>
@@ -53,7 +53,7 @@ function Portfolio() {
           />
         </div>
       </div>
-      <div className="flex mt-20 flex-col sm:flex-row gap-10 sm:gap-0 border-2 p-5 mx-8 sm:mx-20 rounded-lg shadow-xl shadow-green-400" data-aos="fade-left">
+      <div className="flex mt-20 flex-col sm:flex-row gap-10 sm:gap-0 border-2 p-5 mx-8 sm:mx-20 rounded-lg shadow-xl shadow-[red]" data-aos="fade-left">
         <div className="w-full sm:w-1/2 flex justify-center items-center flex-col gap-4 p-6">
           <h1 className="text-3xl uppercase text-white">project # 2</h1>
           <h1 className="text-2xl uppercase text-white">Barber booking</h1>
@@ -82,7 +82,7 @@ function Portfolio() {
       </div>
 
     
-      <div className="flex mt-20 flex-col sm:flex-row gap-10 sm:gap-0 border-2 p-5 mx-8 sm:mx-20 rounded-lg shadow-xl shadow-green-400" data-aos="fade-right">
+      <div className="flex mt-20 flex-col sm:flex-row gap-10 sm:gap-0 border-2 p-5 mx-8 sm:mx-20 rounded-lg shadow-xl shadow-[red]" data-aos="fade-right">
         <div className="w-full sm:w-1/2 flex justify-center items-center flex-col gap-4 p-6">
           <h1 className="text-3xl uppercase text-white">project # 3</h1>
           <h1 className="text-3xl uppercase text-white">tudo-list</h1>
@@ -110,7 +110,7 @@ function Portfolio() {
         </div>
       </div>
       
-      <div className="mb-10 sm:mx-16 flex mt-20 flex-col sm:flex-row gap-10 sm:gap-0 border-2 p-5 mx-8 sm:mx-20rounded-lg shadow-xl shadow-green-400" data-aos="fade-left">
+      <div className="mb-10 sm:mx-16 flex mt-20 flex-col sm:flex-row gap-10 sm:gap-0 border-2 p-5 mx-8 sm:mx-20rounded-lg shadow-xl shadow-[red]" data-aos="fade-left">
         <div className="w-full sm:w-1/2 flex justify-center items-center flex-col gap-4 p-6">
           <h1 className="text-3xl uppercase text-white">project # 4</h1>
           <h1 className="text-3xl uppercase text-white">calculator</h1>
