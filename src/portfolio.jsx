@@ -110,7 +110,7 @@ function Portfolio() {
         </div>
       </div>
       
-      <div className="mb-10  flex mt-20 flex-col sm:flex-row gap-10 sm:gap-0 border-2 p-5 mx-8 sm:mx-20rounded-lg shadow-xl shadow-green-400" data-aos="fade-left">
+      <div className="mb-10 sm:mx-16 flex mt-20 flex-col sm:flex-row gap-10 sm:gap-0 border-2 p-5 mx-8 sm:mx-20rounded-lg shadow-xl shadow-green-400" data-aos="fade-left">
         <div className="w-full sm:w-1/2 flex justify-center items-center flex-col gap-4 p-6">
           <h1 className="text-3xl uppercase text-white">project # 4</h1>
           <h1 className="text-3xl uppercase text-white">calculator</h1>
@@ -129,11 +129,11 @@ function Portfolio() {
             </Link>
           </div>
         </div>
-        <div className="w-full sm:w-1/2 flex justify-center items-center">
+        <div className="w-full sm:w-1/2  flex justify-center items-center">
           <img
             src={calculator}
             alt="solarpanel"
-            className="w-[70%] sm:w-[80%] rounded-xl"
+            className="w-[70%] sm:w-[40%] rounded-xl"
           />
         </div>
       </div>
