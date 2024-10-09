@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div className="h-[70px] w-full bg-slate-900 flex items-center justify-between ">
       <div>
-        <h1 className="text-white text-2xl font-serif ml-2 sm:ml-4 ml-4">
+        <h1 className="text-white text-2xl font-serif  sm:ml-4 ml-4">
           Aarij Dev
         </h1>
       </div>
@@ -66,7 +66,7 @@ function Navbar() {
             <ul className="mt-8">
               <Link to={'/'}>
               <h3 className=" flex  items-center gap-3 text-xl text-white font-poppins   mt-8">
-                <span className="text-black text-3xl">
+                <span className=" text-3xl">
                   <FaHome />
                 </span>
                 Home
@@ -74,7 +74,7 @@ function Navbar() {
               </Link>
               <Link to={'/about'}>
               <h3 className=" flex  items-center gap-3 text-xl text-white font-poppins  mt-8">
-                <span className="text-black text-3xl">
+                <span className=" text-3xl">
                   <IoMdContact />
                 </span>
                 About Us
@@ -82,7 +82,7 @@ function Navbar() {
               </Link>
               <Link to={'/portfolio'}>
               <h3 className=" flex  items-center gap-3 text-xl text-white font-poppins  mt-8">
-                <span className="text-black text-3xl">
+                <span className=" text-3xl">
                   <FaServicestack />
                 </span>
                 Projects
@@ -90,7 +90,7 @@ function Navbar() {
               </Link>
               <Link to={'/location'}>
               <h3 className=" flex  items-center gap-3 text-xl text-white font-poppins  mt-8">
-                <span className="text-black text-3xl">
+                <span className=" text-3xl">
                   <MdLocationPin />
                 </span>
                 Location

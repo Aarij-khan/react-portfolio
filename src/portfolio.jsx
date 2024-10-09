@@ -46,7 +46,6 @@ function Portfolio() {
             <Link
               to={
                 'https://www.linkedin.com/posts/aarij-raza-146364328_task-6-completed-i-developed-animated-activity-7246484500421971968-qTw_?utm_source=share&utm_medium=member_desktop'
-                // "https://www.linkedin.com/posts/aarij-raza-146364328_task-4-completed-i-developed-a-blood-bank-activity-7244069654111952896-kYe5?utm_source=share&utm_medium=member_desktop"
               }
             >
               <div className="flex items-center gap-10 focus:outline-none text-white bg-green-900 hover:bg-green-500 focus:ring-4 focus:ring-green-100 font-medium rounded-lg text-sm px-5 py-2.5  dark:focus:ring-green-600">
@@ -58,7 +57,7 @@ function Portfolio() {
           </div>
         </div>
         <div className="w-full sm:w-1/2    flex justify-center items-center">
-              <img src={img} className="sm:h-full sm:w-[36vw] object-cover" />
+              <img src={img} className="sm:h-full sm:w-[36vw] lg:w-[30vw]   object-cover" />
         </div>
       </div>
 
@@ -74,7 +73,6 @@ function Portfolio() {
             <Link
               to={
                 'https://www.linkedin.com/posts/aarij-raza-146364328_i-have-completed-task-7-built-a-restaurant-activity-7249601850520301568-JViL?utm_source=share&utm_medium=member_android'
-                // "https://www.linkedin.com/posts/aarij-raza-146364328_task-4-completed-i-developed-a-blood-bank-activity-7244069654111952896-kYe5?utm_source=share&utm_medium=member_desktop"
               }
             >
               <div className="flex items-center gap-10 focus:outline-none text-white bg-green-900 hover:bg-green-500 focus:ring-4 focus:ring-green-100 font-medium rounded-lg text-sm px-5 py-2.5  dark:focus:ring-green-600">
