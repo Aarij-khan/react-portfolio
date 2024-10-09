@@ -85,7 +85,7 @@ function Navbar() {
                 <span className="text-black text-3xl">
                   <FaServicestack />
                 </span>
-                Portfolio
+                Projects
               </h3>
               </Link>
               <Link to={'/location'}>
