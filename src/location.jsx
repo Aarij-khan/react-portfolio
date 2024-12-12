@@ -23,10 +23,10 @@ function Location() {
         });
       }, []);
   return (
-    <div className="bg-[#F4D35E] ">
+    <div className="bg-[#F4D35E]  ">
         <Navbar/>
-        {/* <div style={{ height: '85vh', width: '80%',margin:"0 auto",marginTop:15 ,borderRadius:"16px"}} data-aos="zoom-in"> */}
-        <div className="h-[70vh] w-[80%] m-auto mt-[15px] rounded-lg sm:h-[85vh] " data-aos="zoom-in">
+      <div className="flex  justify-center items-center w-full">
+        <div className="h-[58vh] w-[80%] m-auto mt-[15px] rounded-lg sm:h-[85vh] " data-aos="zoom-in">
       <GoogleMapReact
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
@@ -39,7 +39,9 @@ function Location() {
         />
       </GoogleMapReact>
     </div>
-    <Footer props="mt-6"/>
+      </div>
+    <Footer props="mt-6 "/>
+
     </div>
   )
 }
